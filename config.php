@@ -1,8 +1,10 @@
-<?php 
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname= "db";
 
-$db_user = "root";
-$db_pass = "";
-$db_name = "useraccounts";
+// Create connection
+$conn = mysqli_connect($servername, $username, $password,$dbname);
 
-$db = new PDO('mysql:host=localhost;dbname=' . $db_name . ';charset=utf8', $db_user, $db_pass);
-$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+?>

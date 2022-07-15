@@ -19,7 +19,7 @@ body
 /* Add padding to containers */
 .container {
   padding: 16px;
-  background-color: white;
+  background-color: #E78587;
 }
 
 /* Full-width input fields */
@@ -45,7 +45,7 @@ hr {
 
 /* Set a style for the submit button */
 .registerbtn {
-  background-color: #04AA6D;
+  background-color:	#808080;
   color: white;
   padding: 16px 20px;
   margin: 8px 0;
@@ -95,22 +95,19 @@ include('config.php');
     <label for="age"><b>Age</b></label>
     <input type="text" placeholder="Enter Age" name="age" id="age" required>
 
-    <label for="gender"><b>Gender</b></label>
-					<select id="gender" name="gender" style="width:30%;border-radius:12px;height:37px;"required> 
+    <label for="gender"><b>Gender:</b></label> <br></br>
+					<select id="gender" name="gender" style="width:10%;border-radius:10px;height:37px;"required> 
 						<option></option>
 						<option>Male</option>
 						<option>Female</option>
-				
 					</select>
+
+      <br></br>
+
     <label for="email"><b>Email</b></label>
     <input type="text" placeholder="Enter Email" name="email" id="email" required>
-</div>
-     
-<hr>
-
     <button type="submit" class="registerbtn">Register</button>
-  </div>
-</form>
 
+  </form>
 </body>
 </html>
