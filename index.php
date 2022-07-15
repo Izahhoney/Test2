@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <title>Run Event</title>
+    <title>MUSIC FUN</title>
 
 
 </head>
@@ -23,23 +23,23 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
 <!--End of Tawk.to Script-->
+
 <body>
-<img src="chocolate honey yougurt.png" alt="honey" style="width:70%">
-   <h1> Fun Run </h1>
-   <p>Date: 7 Mei 2020</p>
-   <p>Distance: 15KM</p>
-   <p>Date: Rainbow</p>
+<div class="w3-container w3-pale-red">
+<p><center><h1> MUSIC RUN </h1></center></p>
 
+<p><center><img src="RUNN.png" alt="honey" style="width:50%"></center></p>
+
+<div class="w3-container w3-pale-red">
+
+   </div>
    <body>
-
-   <div class="w3-container w3-pale-red">
-  <h1>My Car</h1>
 </div>
 
 
-<div class="w3-container">
-  <p>Let's stay fit and Healty</p>
-</div>
-   <p class="login-register-text">Do you interesting about that? <a href="register.php">Register Here</a>.</p>
+<div class="w3-container w3-pale-red">
+  <p><center><label><b>Let's Stay Fit and Healty</b></label></center></p>
+  <p><center><label><b><p class="login-register-text">Let's come and join us! <a href="register.php">Register Here</a>.</p></b></label></center></p>
+   </div>
 </body>
 </html>
